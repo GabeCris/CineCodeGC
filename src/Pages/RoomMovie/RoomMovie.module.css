@@ -1,0 +1,157 @@
+@import url(../../global.css);
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--black-color);
+}
+
+.container header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 12rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15%;
+}
+
+.container .header a img:active {
+    cursor: grabbing;
+}
+
+.poster {
+    width: 270px;
+    border-radius: 20px;
+}
+
+.container main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.information {
+    margin-top: 32px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+
+.information div {
+    margin: 0;
+}
+
+.information div p {
+    font-size: 2.4rem;
+}
+
+.buttons {
+    margin-top: 64px;
+    gap: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container button {
+    margin-top: 0;
+}
+
+aside {
+    width: 600px;
+    position: relative;
+}
+
+.container h4 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    margin-bottom: 64px;
+}
+
+.banner h3 {
+    margin: 0;
+    line-height: 80%;
+    color: var(--black-color);
+}
+
+.chairContainer {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.money {
+    display: flex;
+    align-items: center;
+}
+
+.money span:nth-child(1) {
+    font-size: 5.6rem;
+    display: flex;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.money .price {
+    display: flex;
+    flex-direction: column;
+}
+
+.money .price span {
+    font-size: 3.6rem;
+    color: var(--white-color);
+    line-height: 95%;
+}
+
+.money .price span:nth-child(2) {
+    font-size: 1.8rem;
+}
+
+.description {
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.description p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.description p::before {
+    content: " ";
+    display: inline-block;
+    margin-right: 8px;
+    width: 15px;
+    height: 15px;
+    background-color: var(--white-color);
+}
+
+.description p:nth-child(2)::before {
+    background-color: var(--gray-color);
+}
+
+.description p:nth-child(3)::before {
+    background-color: var(--primary-color);
+}

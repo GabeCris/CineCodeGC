@@ -1,0 +1,54 @@
+@import url(../../global.css);
+
+.container {
+    width: 100%;
+    height: 9rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 10;
+}
+
+.container nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 6.4rem;
+    list-style-type: none;
+    align-items: center;
+}
+
+.container nav ul li a {
+    font-weight: 600;
+    font-size: 2.4rem;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+
+.container nav ul li a:active {
+    cursor: grabbing;
+}
+
+.container nav ul li a::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: var(--white-color);
+    transition: 0.3s;
+    transform: rotateY(90deg);
+    bottom: 0;
+    transform-origin: left;
+    left: 0;
+}
+
+.container nav ul li a:hover::before {
+    transform: rotateY(0deg);
+}
+
+.container img {
+    cursor: pointer;
+}

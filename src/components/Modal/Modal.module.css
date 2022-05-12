@@ -1,0 +1,42 @@
+@import url(../../global.css);
+
+.modal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background-color: var(--black-color);
+    padding: 32px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.modal img {
+    border-radius: 50%;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40%, -40%);
+    background-color: var(--black-color);
+    cursor: pointer;
+}
+
+.modal img:active {
+    cursor: grabbing;
+}
+
+.content p {
+    margin: 0;
+    font-size: 3.2rem;
+}
+
+.actions {
+    display: flex;
+    gap: 32px;
+}
+
+.actions button {
+    margin: 0;
+}

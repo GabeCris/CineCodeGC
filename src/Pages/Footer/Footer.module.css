@@ -1,0 +1,29 @@
+@import url(../../global.css);
+
+.container {
+    width: 100%;
+    height: 9rem;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container div {
+    display: flex;
+    gap: 36px;
+}
+
+.container p {
+    font-size: 3.6rem;
+    margin: 0;
+}
+
+.container img {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.container img:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}

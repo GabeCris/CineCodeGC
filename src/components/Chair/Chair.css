@@ -1,0 +1,26 @@
+@import url(../../global.css);
+
+.available {
+    transition: 0.3s;
+    background-color: var(--white-color);
+}
+
+.selected {
+    transition: 0.3s;
+    background-color: var(--primary-color);
+}
+
+.selected span {
+    transition: 0.3s;
+    color: white;
+}
+
+.available:hover span {
+    transition: 0.3s;
+    font-weight: 800;
+}
+
+.unavailable {
+    cursor: not-allowed;
+    background-color: var(--gray-color);
+}

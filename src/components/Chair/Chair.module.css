@@ -1,0 +1,21 @@
+@import url(../../global.css);
+
+.chair {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chair:active {
+    cursor: grabbing;
+}
+
+.chair span {
+    color: black;
+    font-size: 1.6rem;
+}

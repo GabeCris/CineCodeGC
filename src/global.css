@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-poppins);
+    text-decoration: none;
+}
+
+:root {
+    --font-poppins: "Poppins", "sans-serif";
+    --primary-color: #870f0f;
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-color: #706b6b;
+
+    --font-poppins: "Poppins", "sans-serif";
+    --font-inter: "Inter", "sans-serif";
+}
+
+html {
+    color: var(--white-color);
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+/* SCROLL */
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--black-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    height: 20px;
+}
+
+p::selection {
+    background-color: var(--primary-color);
+}

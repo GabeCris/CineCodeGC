@@ -1,0 +1,55 @@
+@import url(../../global.css);
+
+.container {
+    margin-top: 96px;
+    width: 100%;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+}
+
+.container article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container aside h3 {
+    line-height: 95%;
+    margin-bottom: 16px;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+.container aside .content .text {
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.information {
+    gap: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.container aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.container article img:first-child {
+    width: 270px;
+    border-radius: 20px;
+}
+
+.container article img:nth-child(2) {
+    margin-top: 32px;
+}
